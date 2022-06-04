@@ -1,3 +1,4 @@
+
 const inp1 = document.getElementById('inp1');
 const inp2 = document.getElementById('inp2');
 const inp3 = document.getElementById('inp3');
@@ -176,3 +177,21 @@ document.addEventListener("DOMContentLoaded", () => {
 function myButton() {
     location.reload();
 }
+
+
+
+document.getElementById('color1').addEventListener('click', ()=> {
+    document.documentElement.style.setProperty('--color1', 'rgba(0,136,169,1)');
+    document.documentElement.style.setProperty('--color1_opacity', 'rgba(0,136,169,0.8)');
+})
+document.getElementById('color2').addEventListener('click', ()=> {
+    document.documentElement.style.setProperty('--color1', 'rgba(254, 1, 154, 1)');
+    document.documentElement.style.setProperty('--color1_opacity', 'rgba(254, 1, 154, 0.8)');
+})
+
+document.getElementById('color3').addEventListener('click', ()=> {
+    document.documentElement.style.setProperty('--color1', 'rgba(255, 153, 1)');
+    document.documentElement.style.setProperty('--color1_opacity', 'rgba(255, 153, 0.8)');
+})
+
+
