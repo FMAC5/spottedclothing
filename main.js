@@ -1,4 +1,4 @@
-
+// OUTPUT // 
 const inp1 = document.getElementById('inp1');
 const inp2 = document.getElementById('inp2');
 const inp3 = document.getElementById('inp3');
@@ -148,6 +148,7 @@ btn1.addEventListener('click', fun19);
 btn1.addEventListener('click', fun20);
 btn1.addEventListener('click', fun21);
 
+// DATA LIST //
 document.addEventListener("DOMContentLoaded", () => {
     let inp2 = document.getElementById("inp2");
   
@@ -167,19 +168,20 @@ document.addEventListener("DOMContentLoaded", () => {
     inp1.value = "";
   }
 
-
+// CURSOR //
   const cursor = document.querySelector('.cursor');
   document.addEventListener('mousemove', (e) => {
     cursor.style.left = e.clientX + 'px';
     cursor.style.top = e.clientY + 'px';
   })
 
+// REFRESH BUTTON //
 function myButton() {
     location.reload();
 }
 
 
-
+// COLOR CHANGE //
 document.getElementById('color1').addEventListener('click', ()=> {
     document.documentElement.style.setProperty('--color1', 'rgba(0,136,169,1)');
     document.documentElement.style.setProperty('--color1_opacity', 'rgba(0,136,169,0.8)');
@@ -193,5 +195,3 @@ document.getElementById('color3').addEventListener('click', ()=> {
     document.documentElement.style.setProperty('--color1', 'rgba(255, 153, 1)');
     document.documentElement.style.setProperty('--color1_opacity', 'rgba(255, 153, 0.8)');
 })
-
-
