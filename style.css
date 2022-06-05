@@ -32,22 +32,26 @@ body {
 
 .colorContainer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    position: sticky;
+    position: fixed;
+    right: 10px;
+    top: 10px;
     
 }
 .color1 {
     border-radius: 100px;
     padding: 0 8px;
     background-color: rgba(0,136,169,1);
-    margin: 0 20px;
     border-color: var(--color2);
     cursor: pointer;
+    margin: 10px 0;
 }
 
 .color1:focus {
     border-radius: 100px;
     padding: 0 8px;
+    margin: 10px 0;
     border-color: rgba(0,136,169,1);
 }
 
@@ -59,15 +63,15 @@ body {
     border-radius: 100px;
     padding: 0 8px;
     background-color: rgba(254, 1, 154, 1);
-    margin: 0 20px;
     border-color: var(--color2);
     cursor: pointer;
+    margin: 10px 0;
 }
 
 .color2:focus {
     border-radius: 100px;
-    padding: 0 8px;
     border-color: rgba(254, 1, 154, 1);
+    padding: 0 8px;
 }
 
 .color2:hover {
@@ -78,15 +82,15 @@ body {
     border-radius: 100px;
     padding: 0 8px;
     background-color: rgba(255, 153, 1);
-    margin: 0 20px;
     border-color: var(--color2);
     cursor: pointer;
+    margin: 10px 0;
 }
 
 .color3:focus {
     border-radius: 100px;
-    padding: 0 8px;
     border-color: rgba(255, 153, 1);
+    padding: 0 8px;
 }
 
 .color3:hover {
